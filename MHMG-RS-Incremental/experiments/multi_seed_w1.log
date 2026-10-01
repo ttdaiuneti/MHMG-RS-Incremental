@@ -1,0 +1,45 @@
+seed 0 Wine: gap3=+0.56 gapsvm=+1.13 J=0.83 (0s)
+seed 0 WDBC: gap3=+2.64 gapsvm=+2.29 J=0.50 (1s)
+seed 0 Iono: gap3=+0.00 gapsvm=+0.00 J=1.00 (1s)
+seed 0 Derm: gap3=+1.91 gapsvm=+1.91 J=0.58 (1s)
+seed 0 Sonar: gap3=-1.42 gapsvm=+2.93 J=0.29 (0s)
+seed 0 Urban: gap3=+1.33 gapsvm=+1.04 J=0.33 (12s)
+seed 0 Musk: gap3=+3.36 gapsvm=+16.60 J=0.00 (3s)
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+seed 0 Arrhy: gap3=+2.88 gapsvm=+1.55 J=0.23 (10s)
+seed 0 Spambase: gap3=+0.00 gapsvm=+0.00 J=1.00 (93s)
+seed 0 Parkinsons: gap3=+3.08 gapsvm=+2.05 J=0.25 (0s)
+seed 0 Letter: gap3=+0.01 gapsvm=+0.00 J=1.00 (938s)
+seed 1 Wine: gap3=+0.00 gapsvm=+0.00 J=1.00 (0s)
+seed 1 WDBC: gap3=+1.41 gapsvm=+0.18 J=0.71 (1s)
+seed 1 Iono: gap3=+1.13 gapsvm=+1.42 J=0.50 (1s)
+seed 1 Derm: gap3=+1.63 gapsvm=+1.09 J=0.82 (1s)
+seed 1 Sonar: gap3=+1.92 gapsvm=+0.95 J=0.43 (1s)
+seed 1 Urban: gap3=+2.52 gapsvm=+4.44 J=0.20 (13s)
+seed 1 Musk: gap3=+3.36 gapsvm=+1.89 J=0.10 (4s)
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+seed 1 Arrhy: gap3=+0.23 gapsvm=-0.44 J=0.36 (11s)
+seed 1 Spambase: gap3=+1.28 gapsvm=+1.22 J=0.36 (88s)
+seed 1 Parkinsons: gap3=+0.00 gapsvm=+0.00 J=0.75 (0s)
+seed 1 Letter: gap3=+0.37 gapsvm=+0.96 J=0.92 (913s)
+seed 2 Wine: gap3=+2.84 gapsvm=+1.13 J=0.50 (0s)
+seed 2 WDBC: gap3=-0.53 gapsvm=-0.35 J=0.62 (1s)
+seed 2 Iono: gap3=+0.00 gapsvm=+0.00 J=1.00 (1s)
+seed 2 Derm: gap3=+2.73 gapsvm=+1.09 J=0.50 (1s)
+seed 2 Sonar: gap3=+2.42 gapsvm=+1.93 J=0.50 (0s)
+seed 2 Urban: gap3=+4.30 gapsvm=+4.15 J=0.33 (13s)
+seed 2 Musk: gap3=-1.47 gapsvm=-0.84 J=0.22 (4s)
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+_split.py:805: UserWarning: The least populated class in y has only 2 members, which is less than n_splits=5.
+  warnings.warn(
+seed 2 Arrhy: gap3=+3.32 gapsvm=+2.65 J=0.38 (11s)
+seed 2 Spambase: gap3=+1.02 gapsvm=+2.80 J=0.50 (85s)
+seed 2 Parkinsons: gap3=+1.03 gapsvm=-0.51 J=0.75 (0s)
+seed 2 Letter: gap3=+0.57 gapsvm=+0.97 J=0.92 (919s)

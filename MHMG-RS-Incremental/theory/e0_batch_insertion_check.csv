@@ -1,0 +1,16 @@
+dataset,check,max_diff_delta,max_diff_gsize,diff_E,diff_Kd,diff_gamma
+Wine,A_vs_C_closed_form_vs_ground_truth,0.0,0.0,1.1368683772161603e-13,1.1368683772161603e-13,0.0
+Wine,B_order0_sequential_vs_ground_truth,0.0,0.0,0.0,0.0,0.0
+Wine,B_order1_sequential_vs_ground_truth,0.0,0.0,1.1368683772161603e-13,2.2737367544323206e-13,0.0
+Wine,B_order2_sequential_vs_ground_truth,0.0,0.0,0.0,0.0,0.0
+Wine,timing,0.00011858325000000392,0.0004132541999999961,3.4849289423251806,,
+Spambase,A_vs_C_closed_form_vs_ground_truth,0.0,0.0,1.8189894035458565e-12,0.0,5.551115123125783e-17
+Spambase,B_order0_sequential_vs_ground_truth,0.0,0.0,3.637978807091713e-12,1.4551915228366852e-11,0.0
+Spambase,B_order1_sequential_vs_ground_truth,0.0,0.0,3.637978807091713e-12,0.0,1.1102230246251565e-16
+Spambase,B_order2_sequential_vs_ground_truth,0.0,0.0,3.637978807091713e-12,0.0,1.1102230246251565e-16
+Spambase,timing,0.0031354250000000137,0.0033351374500000253,1.0636954958259282,,
+Urban,A_vs_C_closed_form_vs_ground_truth,0.0,0.0,2.2737367544323206e-13,0.0,5.551115123125783e-17
+Urban,B_order0_sequential_vs_ground_truth,0.0,0.0,0.0,0.0,0.0
+Urban,B_order1_sequential_vs_ground_truth,0.0,0.0,0.0,4.547473508864641e-13,5.551115123125783e-17
+Urban,B_order2_sequential_vs_ground_truth,0.0,0.0,2.2737367544323206e-13,9.094947017729282e-13,1.6653345369377348e-16
+Urban,timing,0.0011299583000000002,0.0012488854999999743,1.1052491937091609,,

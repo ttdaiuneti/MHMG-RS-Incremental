@@ -1,0 +1,71 @@
+
+##### 2026-09-30 16:55:47 START python3 timing_clean.py --method mhmg --only D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D12
+mhmg Wine: batch80=0.03s batch100=0.05s init=0.0007s stream=0.0009s [0.0009,0.0010]
+mhmg WDBC: batch80=0.47s batch100=0.55s init=0.0049s stream=0.0039s [0.0037,0.0041]
+mhmg Iono: batch80=0.32s batch100=0.33s init=0.0020s stream=0.0022s [0.0022,0.0024]
+mhmg Derm: batch80=0.35s batch100=0.49s init=0.0021s stream=0.0023s [0.0023,0.0024]
+mhmg Sonar: batch80=0.18s batch100=0.22s init=0.0008s stream=0.0011s [0.0011,0.0011]
+mhmg Urban: batch80=5.02s batch100=7.94s init=0.0086s stream=0.0058s [0.0056,0.0060]
+mhmg Musk: batch80=2.48s batch100=1.95s init=0.0032s stream=0.0034s [0.0033,0.0036]
+mhmg Arrhy: batch80=4.67s batch100=5.66s init=0.0031s stream=0.0031s [0.0031,0.0033]
+mhmg Spambase: batch80=37.82s batch100=48.04s init=0.2277s stream=0.1072s [0.1068,0.1078]
+mhmg Parkinsons: batch80=0.05s batch100=0.06s init=0.0008s stream=0.0010s [0.0010,0.0010]
+mhmg Letter: batch80=343.59s batch100=542.57s init=6.0752s stream=2.1041s [2.0684,2.1235]
+##### 2026-09-30 17:13:44 END rc=0 python3 timing_clean.py --method mhmg --only D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D12
+
+##### 2026-09-30 17:13:44 START python3 timing_clean.py --method mhmg --only D11 --reuse-init
+mhmg Isolet: batch80=nans batch100=3083.16s init=0.8583s stream=0.5775s [0.5765,0.5778]
+##### 2026-09-30 18:05:16 END rc=0 python3 timing_clean.py --method mhmg --only D11 --reuse-init
+
+##### 2026-09-30 18:05:16 START python3 timing_clean.py --method xu
+xu Wine: batch80=0.01s batch100=0.02s init=0.0003s stream=0.0003s [0.0003,0.0003]
+xu WDBC: batch80=0.39s batch100=0.74s init=0.0029s stream=0.0017s [0.0017,0.0018]
+xu Iono: batch80=0.15s batch100=0.24s init=0.0010s stream=0.0008s [0.0008,0.0008]
+xu Derm: batch80=0.18s batch100=0.30s init=0.0011s stream=0.0008s [0.0008,0.0008]
+xu Sonar: batch80=0.11s batch100=0.16s init=0.0004s stream=0.0003s [0.0003,0.0004]
+xu Urban: batch80=6.26s batch100=9.63s init=0.0040s stream=0.0023s [0.0023,0.0024]
+xu Musk: batch80=4.10s batch100=7.07s init=0.0022s stream=0.0014s [0.0014,0.0014]
+xu Arrhy: batch80=9.55s batch100=14.66s init=0.0020s stream=0.0013s [0.0013,0.0013]
+xu Spambase: batch80=67.27s batch100=109.00s init=0.7496s stream=0.2237s [0.2235,0.2238]
+xu Parkinsons: batch80=0.02s batch100=0.05s init=0.0003s stream=0.0003s [0.0003,0.0003]
+
+##### 2026-09-30 18:50:59 START (rerun) timing_clean.py --method xu --only D12
+18:52:25 xu Letter: batch80 85.7s
+18:54:46 xu Letter: batch100 140.6s
+18:55:08 xu Letter: stream repeat 1/5
+18:55:30 xu Letter: stream repeat 2/5
+18:55:52 xu Letter: stream repeat 3/5
+18:56:14 xu Letter: stream repeat 4/5
+18:56:36 xu Letter: stream repeat 5/5
+xu Letter: batch80=85.72s batch100=140.64s init=4.7209s stream=1.5646s [1.5619,1.5656]
+##### 2026-09-30 18:56:36 END rc=0 (rerun) xu D12
+
+##### 2026-09-30 20:33:49 START timing_clean.py --method mhmg --eval-only
+20:33:49 mhmg Wine: batch evaluation on n=178: 0.0006s
+20:33:49 mhmg WDBC: batch evaluation on n=569: 0.0036s
+20:33:49 mhmg Iono: batch evaluation on n=351: 0.0018s
+20:33:49 mhmg Derm: batch evaluation on n=366: 0.0019s
+20:33:49 mhmg Sonar: batch evaluation on n=208: 0.0007s
+20:33:49 mhmg Urban: batch evaluation on n=675: 0.0077s
+20:33:49 mhmg Musk: batch evaluation on n=476: 0.0026s
+20:33:49 mhmg Arrhy: batch evaluation on n=452: 0.0029s
+20:33:50 mhmg Spambase: batch evaluation on n=4601: 0.1842s
+20:33:50 mhmg Parkinsons: batch evaluation on n=195: 0.0006s
+20:33:56 mhmg Isolet: batch evaluation on n=7797: 1.0122s
+20:34:24 mhmg Letter: batch evaluation on n=20000: 5.6785s
+##### 2026-09-30 20:34:24 END eval-only
+
+##### 2026-09-30 20:37:19 START (rerun, stream order) timing_clean.py --method mhmg --eval-only
+20:37:19 mhmg Wine: batch evaluation on n=178: 0.0006s
+20:37:19 mhmg WDBC: batch evaluation on n=569: 0.0041s
+20:37:19 mhmg Iono: batch evaluation on n=351: 0.0020s
+20:37:19 mhmg Derm: batch evaluation on n=366: 0.0021s
+20:37:19 mhmg Sonar: batch evaluation on n=208: 0.0009s
+20:37:19 mhmg Urban: batch evaluation on n=675: 0.0079s
+20:37:19 mhmg Musk: batch evaluation on n=476: 0.0031s
+20:37:20 mhmg Arrhy: batch evaluation on n=452: 0.0031s
+20:37:21 mhmg Spambase: batch evaluation on n=4601: 0.2246s
+20:37:21 mhmg Parkinsons: batch evaluation on n=195: 0.0007s
+20:37:26 mhmg Isolet: batch evaluation on n=7797: 1.0807s
+20:37:56 mhmg Letter: batch evaluation on n=20000: 5.8477s
+##### 2026-09-30 20:37:56 END eval-only

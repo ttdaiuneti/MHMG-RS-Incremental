@@ -1,0 +1,2 @@
+dataset,dataset_name,n_total,n_features,reduct_init_size,gamma_init,time_batch_init_sec,reduct_full_size,gamma_full,time_batch_full_sec,reduct_init_features,reduct_full_features,jaccard_overlap_init_full,time_state_init_sec,time_stream_update_iid_sec
+D11,Isolet,7797,617,19,0.45,2050.8464958667755,20,0.45,3270.5423238277435,1|5|9|13|98|101|104|109|138|165|202|323|362|386|394|396|410|417|580,1|5|10|12|14|98|109|133|136|171|179|323|362|388|394|396|411|416|418|580,0.3,0.9280027080003492,0.37297221599146724
